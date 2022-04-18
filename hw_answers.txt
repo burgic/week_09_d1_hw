@@ -1,0 +1,8 @@
+1. Server.js. Create Router, games router. Database in seeds.js.
+2. Client responsible for front end client side, collecting data and storing in arrays, rendering pages. Server responsible for back end server side, database storage, routing. Structure separated in components and containers in client side. 
+3. It is responsible for the routing, connection to express, defining database.
+4. Responsible for routing to different URLs to be rendered, accessing the database. Defines routes for get, post, put and delete. 
+5. app.listen on port, then in GamesService there is a fetch for the URL, which is then parsed to JSON. PostGame can be used to post to update the database. 
+6. Fetch method takes a mandatory argument, path to the resource to fetch and returns a promise. An init option object can be passed as the second argument. Can add to the defined resource, second argument adds on to first to update games. 
+7. Get game, delete game, update game. This is routed through the GamesService.
+8. The MongoDB driver is for allowing Node.hs applications to connect to MongoDB and work with data. 
